@@ -1,3 +1,4 @@
+/* 색상 초기화 및 설정 */
 :root {
     --text-color: #black;
     --background-color: white;
@@ -6,16 +7,19 @@
     --bodybackground-color: lightgray;
 }
 
+/* 디스플레이 영역 전체 디자인 */
 a {
     text-decoration: none;
     color: var(--text-color);
 }
 
+/* 디스플레이 영역 전체 디자인 */
 body { 
     margin: 0;
     background-color: var(--bodybackground-color);
 }
 
+/* 네비게이션 바 관련 디자인 */
 .navbar {
     display: flex;
     justify-content: space-between;
