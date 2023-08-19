@@ -52,6 +52,7 @@ body {
 
 
 /* 메인화면 관련 디자인 */
+/* 여기부분 이미지가 백그라운드로 안감 */
 .header {
     background: url(images/NuriMainTakeoff.jpg);
     background-position: center;
