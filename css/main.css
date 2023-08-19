@@ -7,6 +7,7 @@
     --bodybackground-color: lightgray;
 }
 
+
 /* 디스플레이 영역 전체 디자인 */
 a {
     text-decoration: none;
@@ -49,7 +50,52 @@ body {
     border-radius: 3px;
 }
 
-.submenu > li {
-    line-height: 50px;
-    background-color: var(--background-color);
+
+/* 메인화면 관련 디자인 */
+.header {
+    background: url(images/NuriMainTakeoff.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.header .title img {
+    width: 100px;
+}
+
+.header .title h1 {
+    font-size: 40px;
+    color: #333;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+}
+
+.header .title p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.header .title button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.header .title button:hover {
+    transition: 0.5s ease;
+    border: 2px solid black;
+    background: lightblue;
+    color: black;
 }
