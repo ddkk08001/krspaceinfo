@@ -49,18 +49,3 @@ body {
     line-height: 50px;
     background-color: var(--background-color);
 }
-
-.submenu {
-    height: 0;
-    overflow: hidden;
-}
-
-.navbar_menu > li:hover {
-    background-color: var(--accent-color);
-    transition-duration: 0.5s;
-}
-
-.navbar_menu > li:hover .submenu {
-    height: 250px;
-    transition-duration: 1s;
-}
