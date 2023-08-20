@@ -54,9 +54,9 @@ body {
 /* 메인화면 관련 디자인 */
 /* 여기부분 이미지가 백그라운드로 안감 */
 .header {
-    background: url(images/NuriMainTakeoff.jpg);
-    background-position: center;
+    background-image: url(/images/mainscreen.jpg);
     background-size: cover;
+    background-position: center center;
     height: 1000px;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 }
 
 .header .title h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: #333;
     letter-spacing: 0.2em;
     margin-bottom: 0;
@@ -102,3 +102,45 @@ body {
 }
 
 /* 타임 (t+, t-) [이벤트성 구역] */
+/*
+.eventCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+}
+*/
+
+.eventCount {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.acontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.count {
+    text-align: center;
+}
+.count span{
+    font-size: 1.4rem;
+}
