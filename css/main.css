@@ -27,6 +27,11 @@ body {
     align-items: center;
     background-color: var(--background-color);
     padding: 8px 12px;
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
 }
 
 .navbar_logo i {
@@ -45,6 +50,10 @@ body {
     padding: 8px 30px;
 }
 
+.navbar_menu .currentPage {
+    background-color: lightsteelblue;
+}
+
 .navbar_menu li:hover {
     background-color: var(--accent-color);
     border-radius: 3px;
@@ -56,6 +65,7 @@ body {
     background-image: url("../images/mainscreen.jpg");
     background-size: cover;
     background-position: center center;
+    margin-top: 100px;
     height: 1000px;
     display: flex;
     align-items: center;
@@ -72,7 +82,7 @@ body {
 
 .header .title h1 {
     font-size: 60px;
-    color: #333;
+    color: black;
     letter-spacing: 0.2em;
     margin-bottom: 0;
 }
@@ -80,7 +90,7 @@ body {
 .header .title p {
     margin-top: 0;
     margin-bottom: 30px;
-    color: #333;
+    color: black;
 }
 
 .header .title button {
@@ -95,18 +105,20 @@ body {
 
 .header .title button:hover {
     transition: 0.5s ease;
-    border: 2px solid black;
-    background: lightblue;
-    color: black;
+    border: 2px solid white;
+    background: black;
+    color: white;
 }
 
 .eventCount {
     display: flex;
     flex-direction: column;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+    background-image: url(../images/DanuriTakeoffview.jpg);
     background-size: cover;
     background-position: center center;
     align-items: center;
-    min-height: flex;
+    min-height: 500px;
 }
 
 .acontainer {
@@ -125,6 +137,7 @@ body {
 .count {
     text-align: center;
     margin-bottom: 75px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
 }
 .count span{
     font-size: 30px
@@ -142,15 +155,14 @@ body {
 
 .eventCount button:hover {
     transition: 0.5s ease;
-    border: 2px solid black;
-    background: lightblue;
-    color: black;
+    border: 2px solid white;
+    background: black;
+    color: white;
 }
 
 footer {
     text-align: center;
     font-size: 25px;
-    margin-top: 50px;
     background-color: gray;
     margin-bottom: none;
 }
