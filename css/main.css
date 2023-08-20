@@ -52,7 +52,6 @@ body {
 
 
 /* 메인화면 관련 디자인 */
-/* 여기부분 이미지가 백그라운드로 안감 */
 .header {
     background-image: url("../images/mainscreen.jpg");
     background-size: cover;
@@ -100,21 +99,6 @@ body {
     background: lightblue;
     color: black;
 }
-
-/* 타임 (t+, t-) [이벤트성 구역] */
-/*
-.eventCount {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    background-image: url();
-    background-size: cover;
-    background-position: center center;
-}
-*/
 
 .eventCount {
     display: flex;
