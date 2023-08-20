@@ -65,8 +65,8 @@ body {
     background-image: url("../images/mainscreen.jpg");
     background-size: cover;
     background-position: center center;
-    margin-top: 100px;
     height: 1000px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,15 +76,12 @@ body {
     text-align: center;
 }
 
-.header .title img {
-    width: 100px;
-}
-
 .header .title h1 {
     font-size: 60px;
     color: black;
     letter-spacing: 0.2em;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .header .title p {
