@@ -1,8 +1,8 @@
 /* 색상 초기화 및 설정 */
 :root {
-    --text-color: #black;
-    --background-color: white;
-    --accent-color: lightblue;
+    --text-color: lightgray;
+    --background-color: black;
+    --accent-color: white;
     --icons-color: rgb(152, 187, 201);
     --bodybackground-color: lightgray;
 }
@@ -17,7 +17,7 @@ a {
 /* 디스플레이 영역 전체 디자인 */
 body { 
     margin: 0;
-    background-color: var(--bodybackground-color);
+    background-color: var(--background-color);
 }
 
 /* 네비게이션 바 관련 디자인 */
@@ -87,4 +87,38 @@ body {
     margin-top: 0;
     margin-bottom: 30px;
     color: lightgray;
+}
+
+/* 다누리 키운트 */
+.eventCount {
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    background-image: url(../images/DanuriTakeoffview.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.acontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.count {
+    text-align: center;
+    margin-bottom: 75px;
+    color: lightgray;
+}
+.count span{
+    font-size: 30px
 }
