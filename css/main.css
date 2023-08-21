@@ -107,6 +107,7 @@ body {
     color: white;
 }
 
+/* 이벤트성 화면 (카운트 다운 등등) 관련 디자인 */
 .eventCount {
     display: flex;
     flex-direction: column;
@@ -115,7 +116,7 @@ body {
     background-size: cover;
     background-position: center center;
     align-items: center;
-    min-height: 500px;
+    min-height: 450px;
 }
 
 .acontainer {
@@ -157,6 +158,49 @@ body {
     color: white;
 }
 
+/* 사이트 설명 및 서브 서브 네비게이션 관련 디자인 */
+.aboutNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.aboutNav .navcard {
+    flex: 1;
+    text-align: center;
+    margin: 150px 40px;
+}
+
+.aboutNav .navcard .spaceRocket h1 {
+    letter-spacing: 20px;
+}
+
+.aboutNav .navcard .satellite h1 {
+    letter-spacing: 40px;
+}
+
+.aboutNav .navcard .spaceRocket p {
+    font-size: 10px;
+}
+
+.aboutNav .navcard .satellite p {
+    font-size: 10px;
+}
+
+.aboutNav .navcard .spaceRocket:hover {
+    transition: 0.5 ease;
+    font-size: 30px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+.aboutNav .navcard .satellite:hover {
+    transition: 0.5 ease;
+    font-size: 30px;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+/* 푸터 관련 디자인 */
 footer {
     text-align: center;
     font-size: 25px;

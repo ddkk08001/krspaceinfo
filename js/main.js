@@ -42,3 +42,5 @@ function formatTime(time){
 countDown()
 
 setInterval(countDown, 1000)
+
+//사이트 설명 & 서브 네비게이션 div 클릭 감지 이벤트
