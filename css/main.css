@@ -159,12 +159,32 @@ body {
 }
 
 /* 사이트 설명 및 서브 서브 네비게이션 관련 디자인 */
+.aboutNavTitle {
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+.aboutNavExp {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
 .aboutNav {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
+    max-height: 250px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .aboutNav .navcard {
@@ -182,11 +202,11 @@ body {
 }
 
 .aboutNav .navcard .spaceRocket p {
-    font-size: 10px;
+    font-size: 25px;
 }
 
 .aboutNav .navcard .satellite p {
-    font-size: 10px;
+    font-size: 25px;
 }
 
 .aboutNav .navcard .spaceRocket:hover {
@@ -198,6 +218,40 @@ body {
     transition: 0.5 ease;
     font-size: 30px;
     text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+.aboutNav .navcard .spaceRocket button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.aboutNav .navcard .spaceRocket button:hover {
+    transition: 0.5s ease;
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
+
+.aboutNav .navcard .satellite button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 14px;
+    transition: 0.5s ease;
+}
+
+.aboutNav .navcard .satellite button:hover {
+    transition: 0.5s ease;
+    border: 2px solid white;
+    background: black;
+    color: white;
 }
 
 /* 푸터 관련 디자인 */
