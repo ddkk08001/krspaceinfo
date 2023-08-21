@@ -94,7 +94,8 @@ body {
     display: flex;
     flex-direction: column;
     color: lightgray;
-    background-image: url(../images/DanuriTakeoffview.jpg);
+    background-image: url(../images/DanuriTakeoffmain.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     align-items: center;
