@@ -58,3 +58,33 @@ body {
     background-color: var(--accent-color);
     border-radius: 3px;
 }
+
+/* 메인 화면 관련 디자인 */
+.header {
+    background-image: url("../images/Danurimoonmain2.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 1000px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .title {
+    text-align: center;
+}
+
+.header .title h1 {
+    font-size: 60px;
+    color: lightgray;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.header .title p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: lightgray;
+}
