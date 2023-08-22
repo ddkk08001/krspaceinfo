@@ -123,3 +123,22 @@ body {
 .count span{
     font-size: 30px
 }
+
+/* 다누리 발사 정보 관련 디자인 */
+.danuriTakeoff h1 {
+    text-align: center;
+    color: lightgray;
+}
+.danuriTakeoff p {
+    text-align: center;
+    color: lightgray;
+}
+
+.danuriTakeoff .navcardDanuri {
+    margin-top: 140px;
+}
+
+.danuriTakeoff .navcardDanuri .img img {
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
