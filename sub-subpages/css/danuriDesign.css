@@ -11,6 +11,7 @@
 /* 디스플레이 영역 전체 디자인 */
 a {
     text-decoration: none;
+    text-align: center;
     color: var(--text-color);
 }
 
@@ -147,8 +148,15 @@ body {
 footer {
     text-align: center;
     font-size: 25px;
-    background-color: gray;
+    background-color: black;
     margin-bottom: none;
+    color: lightgray;
+    margin-top: 100px;
+}
+
+footer a {
+    color: lightgray;
+    
 }
 
 footer strong {
