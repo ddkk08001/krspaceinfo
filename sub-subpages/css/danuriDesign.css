@@ -127,11 +127,34 @@ body {
 
 /* 다누리 궤도 관련 디자인 */
 .danuriWayToMoon {
+    background-image: url("../images/Danuriorbit.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    width: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
     text-align: center;
-    align-items: center;
-    min-height: 100px;
-    margin-top: auto;
-    background-color: gray;
+}
+
+.danuriWayToMoon .orbitText {
+    text-align: center;
+}
+
+.danuriWayToMoon .orbitText h1 {
+    font-size: 60px;
+    color: lightgray;
+    letter-spacing: 0.2em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.danuriWayToMoon .orbitText p {
+    margin-top: 0;
+    margin-bottom: 45px;
+    color: lightgray;
 }
 
 /* 다누리 발사 정보 관련 디자인 */
