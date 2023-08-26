@@ -125,6 +125,15 @@ body {
     font-size: 30px
 }
 
+/* 다누리 백그라운드 정보 관련 디자인 */
+.danuriBackInfo {
+    text-align: center;
+    align-items: center;
+    min-height: 100px;
+    margin-top: 25px;
+    background-color: darkgray;
+}
+
 /* 다누리 발사 정보 관련 디자인 */
 .danuriTakeoff h1 {
     text-align: center;
