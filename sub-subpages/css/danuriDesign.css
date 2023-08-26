@@ -125,13 +125,13 @@ body {
     font-size: 30px
 }
 
-/* 다누리 백그라운드 정보 관련 디자인 */
-.danuriBackInfo {
+/* 다누리 궤도 관련 디자인 */
+.danuriWayToMoon {
     text-align: center;
     align-items: center;
     min-height: 100px;
-    margin-top: 25px;
-    background-color: darkgray;
+    margin-top: auto;
+    background-color: gray;
 }
 
 /* 다누리 발사 정보 관련 디자인 */
