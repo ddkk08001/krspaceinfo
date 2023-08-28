@@ -1,0 +1,38 @@
+/* 네비게이션 바 관련 디자인 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 12px;
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+}
+
+.navbar_logo i {
+    color: var(--accent-color);
+    padding-left: 0;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 8px 30px;
+}
+
+.navbar_menu .currentPage {
+    background-color: lightsteelblue;
+}
+
+.navbar_menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 3px;
+}
