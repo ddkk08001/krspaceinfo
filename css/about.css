@@ -64,7 +64,7 @@ body {
     background-image: url("../images/mainscreen.jpg");
     background-size: cover;
     background-position: center center;
-    height: 1000px;
+    height: 400px;
     margin-top: 70px;
     display: flex;
     align-items: center;
