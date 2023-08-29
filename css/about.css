@@ -61,6 +61,7 @@ body {
 
 /* 메인화면 관련 디자인 */
 .header {
+    background-image: url("../images/mainscreen.jpg");
     background-image: url("../images/nuri3rdtake.jpg");
     background-size: cover;
     background-position: center center;
@@ -106,4 +107,20 @@ body {
     justify-content: center;
     margin: auto;
     display: flex;
+}
+
+/* 푸터 관련 디자인 */
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: gray;
+    margin-bottom: none;
+}
+
+footer strong {
+    font-size: 30px;
+}
+
+footer p {
+    margin-bottom: 25px;
 }
