@@ -106,3 +106,19 @@ body {
     margin: auto;
     display: flex;
 }
+
+/* 푸터 관련 디자인 */
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: gray;
+    margin-bottom: none;
+}
+
+footer strong {
+    font-size: 30px;
+}
+
+footer p {
+    margin-bottom: 25px;
+}
