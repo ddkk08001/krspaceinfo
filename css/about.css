@@ -61,7 +61,6 @@ body {
 
 /* 메인화면 관련 디자인 */
 .header {
-    background-image: url("../images/mainscreen.jpg");
     background-image: url("../images/nuri3rdtake.jpg");
     background-size: cover;
     background-position: center center;
